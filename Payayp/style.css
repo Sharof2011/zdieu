@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Public Sans";
+}
+.conteiner {
+  max-width: 1200px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+a {
+  font-family: Public Sans;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(54, 83, 107, 1);
+}
+a:hover {
+  padding: 16px 26px 14px 24px;
+  border-radius: 24px;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  color: rgba(251, 252, 254, 1);
+  background-color: rgba(186, 66, 112, 1);
+  transition: 0.5s;
+}
+.h1 {
+  width: 546px;
+  height: 243px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.55px;
+  color: rgba(54, 83, 107, 1);
+  margin-top: 152px;
+}
+.img-card {
+  display: flex;
+  justify-content: space-between;
+}
+.h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 48px;
+
+  color: rgba(54, 83, 107, 1);
+}
+.p {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  width: 445px;
+  height: 84px;
+
+  margin-top: 24px;
+}
+
+.img-card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.card p{
+  padding-top: 32px;
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.14px;
+  padding-right: 10px;
+}
+
+.card img{
+    margin-left: 23px;
+}
+
+.section_last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 275px;
+  padding-bottom: 103px;
+}
+
+footer{
+    background-color: rgba(27, 38, 47, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 650px;
+    padding: 31px 0;
+}
+
+.footer__left{
+    display: flex;
+    gap: 64px;
+}
+
+.footer__bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(232, 233, 234);
+    gap: 45px;
+}
